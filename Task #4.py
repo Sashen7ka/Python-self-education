@@ -114,7 +114,7 @@ with open('input.txt', 'r', encoding='utf-8') as f, open('output.txt', 'w', enco
     K = int(f.readline())
 
     # Проверяем, можем ли купить K шариков мороженого
-    print(task_31(k))
+    result = task_31(k)
 
     # Выводим ответ на экран и записываем в файл output.txt
     print(result)
