@@ -13,6 +13,7 @@ def task_31(n: int) -> str:
 
 
 # Открытие файлаd для чтения и записи
+
 with open('input.txt', 'r', encoding='utf-8') as f, open('output.txt', 'w', encoding='utf-8') as out_file:
     print('Задача 1.1')
     # Считывание первой строки (первого числа)
@@ -114,7 +115,9 @@ with open('input.txt', 'r', encoding='utf-8') as f, open('output.txt', 'w', enco
     K = int(f.readline())
 
     # Проверяем, можем ли купить K шариков мороженого
+
     result = task_31(k)
+
 
     # Выводим ответ на экран и записываем в файл output.txt
     print(result)
